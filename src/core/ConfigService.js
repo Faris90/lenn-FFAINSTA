@@ -265,7 +265,7 @@ getUnique() {
   }
   loadUniBan() {
   
-   request('https://raw.githubusercontent.com/AJS-development/Ogar-unlimited/master/src/uniban.txt', function (error, response, body) {
+   request('https://raw.githubusercontent.com/Faris90/lenn-FFAINSTA/master/src/uniban.txt', function (error, response, body) {
           var data = '';
           if (!error && response.statusCode == 200) {
             fs.writeFileSync(__dirname + '/../uniban.txt', body);
