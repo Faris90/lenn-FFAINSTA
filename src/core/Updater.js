@@ -22,7 +22,7 @@ const exec = require('child_process').exec;
 
 module.exports = class Updater {
   constructor(gameServer) {
-    this.url = "http://raw.githubusercontent.com/AJS-development/Ogar-unlimited/" + "master" + "/";
+    this.url = "http://raw.githubusercontent.com/Faris90/lenn-FFAINSTA/" + "master" + "/";
     this.gameServer = gameServer;
     this.files;
     this.newFiles = {};
